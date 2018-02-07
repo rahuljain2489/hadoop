@@ -2520,7 +2520,7 @@ public class RouterRpcServer extends AbstractService
   }
 
   @Override
-  public boolean isStoragePolicySatisfierRunning() throws IOException {
+  public boolean isInternalSatisfierRunning() throws IOException {
     checkOperation(OperationCategory.READ, false);
     return false;
   }
